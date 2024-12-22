@@ -18,10 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     menuToggle.addEventListener("click", function() {
         navigation.style.display = "block";
+        document.body.style.overflow = "hidden";
     });
 
     cross.addEventListener("click", function() {
         navigation.style.display = "none";
+        document.body.style.overflow = '';
     });
 
     menuItems.forEach(item => {
@@ -49,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
             this.classList.add('sideMenu__choice');
 
             navigation.style.display = "none";
+            document.body.style.overflow = '';
         });
     });
 });
@@ -61,10 +64,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     langToggle.addEventListener("click", function() {
         languages.style.display = "block";
+        document.body.style.overflow = "hidden";
     });
 
     cross.addEventListener("click", function() {
         languages.style.display = "none";
+        document.body.style.overflow = '';
     });
 
     langItems.forEach(item => {
@@ -78,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
             this.classList.add('chooseLang__choice');
 
             languages.style.display = "none";
+            document.body.style.overflow = '';
         });
     });
 });

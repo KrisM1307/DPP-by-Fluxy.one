@@ -349,6 +349,7 @@ table {
     backdrop-filter: blur(5px);
     width: 100vw;
     height: 100vh;
+    overflow-x: auto;
     position: fixed;
     z-index: 999999;
     padding: 0;
@@ -376,6 +377,8 @@ table {
     text-transform: uppercase;
     cursor: pointer;
     max-width: 393px;
+    height: auto;
+    overflow-y: auto;
 }
 
 .sideMenu__item,
@@ -407,6 +410,8 @@ table {
     text-transform: capitalize;
     cursor: pointer;
     max-width: 393px;
+    height: auto;
+    overflow-y: auto;
 }
 
 .brackets::before {
