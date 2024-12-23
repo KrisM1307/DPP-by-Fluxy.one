@@ -2,10 +2,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const captions = document.querySelectorAll('.caption');
 
     captions.forEach(caption => {
+        const information = caption.nextElementSibling;
+        if (!information.classList.contains('hidden')) {
+            caption.classList.add('active');
+        }
+
         caption.addEventListener('click', () => {
-            const information = caption.nextElementSibling;
-            information.classList.toggle('active');
-            caption.classList.toggle('active');
+            if (information.classList.contains('hidden')) {
+                information.classList.remove('hidden');
+                caption.classList.add('active');
+            } else {
+                information.classList.add('hidden');
+                caption.classList.remove('active');
+            }
         });
     });
 });
@@ -87,3 +96,18 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+function showNotification(message) {
+    const notification = document.createElement("div");
+    notification.classList.add('unavailable');
+    notification.textContent = message;
+    document.body.append(notification);
+
+    setTimeout(() => {
+        notification.remove();
+    }, 5000);
+}
+
+const unavailableButton = document.querySelector('.menu__item--not');
+
+unavailableButton.addEventListener("click", () => showNotification("Function is temporarily unavailable."));
