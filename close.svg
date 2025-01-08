@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #02262d;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <image width="24" height="24" transform="translate(22.5 -.5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADDSURBVHgB7ZNBDoJADEXrGI3HGDeGjYlX4ORewcQNcWOPYTAayswGZkrnswXeAppC/w+dD9HG4tmp3cv1He7ttyZumCyqytP/cA/163lOHztj1NNRBr0IlMUn39EN3L6WK5smY3GmNsxk6CsKAjcR+A0EBuvSxPnB8wymTE5SgeJlA80kAoljBrkJoeI9jiA+YC8HWFFyoJFYA/+JmyXerwWJMCFfYEXRijBkgOQcNNFXhOS8kV66LgXrDMpRHJtsrJUOZ2mH/YAzjkwAAAAASUVORK5CYII="/>
+  <path class="cls-1" d="M13.59,12.05l4.56,4.56-1.51,1.51-4.56-4.56-4.82,4.82-1.64-1.64,4.82-4.82-4.54-4.54,1.51-1.51,4.54,4.54,4.79-4.79,1.64,1.64-4.79,4.79Z"/>
+</svg>
