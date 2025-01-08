@@ -32,6 +32,11 @@ section {
     border-radius: 0 0 4px 4px;
 }
 
+.logo__size {
+    width: 37px;
+    height: 37px;
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
